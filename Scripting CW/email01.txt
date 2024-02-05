@@ -1,0 +1,68 @@
+Received: from mail120-co9-R.bigfish.com (207.46.163.22) by
+ MER-EXCH2.napier.ac.uk (146.176.4.2) with Microsoft SMTP Server (TLS) id
+ 14.2.318.4; Sat, 1 Jun 2013 10:33:39 +0100
+Received: from mail120-co9 (localhost [127.0.0.1])	by
+ mail120-co9-R.bigfish.com (Postfix) with ESMTP id 1E6A57203B3	for
+ <w.buchanan@napier.ac.uk>; Sat,  1 Jun 2013 09:33:37 +0000 (UTC)
+X-Forefront-Antispam-Report: CIP:94.124.10.178;KIP:(null);UIP:(null);IPV:NLI;H:prohosti.pl;RD:mx.prohosti.pl;EFVD:NLI
+X-SpamScore: 4
+X-BigFish: vps4(zzzz1f42h1ee6h1de0h1d18h1fdah1202h1e76h1d1ah1d2ah1fc6hz58ha7hz177df4h17326ah18c673h6d523h1b9c21hz2dh2a8h668h839h947h950hd25he5bhfa3h10d2h1288h12a5h12bdh137ah13b6h13eah1441h1537h153bh162dh1631h1758h18b6h18e1h1946h19b5h1b0ah1d0ch1d2eh1d3fh1dc1h1dfeh1dffh96bi156bk1155h)
+Received: from mail120-co9 (localhost.localdomain [127.0.0.1]) by mail120-co9
+ (MessageSwitch) id 1370079174495103_8949; Sat,  1 Jun 2013 09:32:54 +0000
+ (UTC)
+Received: from CO9EHSMHS016.bigfish.com (unknown [10.236.132.232])	by
+ mail120-co9.bigfish.com (Postfix) with ESMTP id 4127D380071	for
+ <w.buchanan@napier.ac.uk>; Sat,  1 Jun 2013 09:32:54 +0000 (UTC)
+Received: from prohosti.pl (94.124.10.178) by CO9EHSMHS016.bigfish.com
+ (10.236.130.26) with Microsoft SMTP Server (TLS) id 14.1.225.23; Sat, 1 Jun
+ 2013 09:32:51 +0000
+Received: from [205.204.94.129] (helo=callnet.dk)	by prohosti.pl with esmtpa
+ (Exim 4.73)	(envelope-from <no-reply@callnet.dk>)	id 1Uihom-00038v-4R; Sat,
+ 01 Jun 2013 11:09:44 +0200
+Reply-To: <no-reply@callnet.dk>
+From: NatWest <no-reply@callnet.dk>
+Subject: Your online account will expire today on 01 June 2013
+Date: Sat, 1 Jun 2013 02:08:15 -0700
+Message-ID: <20130601020815.EC2BDC477EA07111@callnet.dk>
+MIME-Version: 1.0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+To: Undisclosed recipients:;
+Return-Path: no-reply@callnet.dk
+X-MS-Exchange-Organization-AuthSource: MER-EXCH2.napier.ac.uk
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><meta http-equiv="Content-Language" content="en-us">
+
+<title>12</title>
+<style type="text/css">
+#q {
+	color: #0D0D40;
+}
+.mainContent {clear:both;width:543px;float:left;padding:0 0 3px 8px;margin:0 0 10px;}
+.mainContent div p {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.mainContent div p {
+	font-size: 10px;
+}
+.mainContent div p {
+	font-size: 12px;
+}
+</style></head><body><table cellpadding="0" cellspacing="0" width="547">                 
+	<!-- MSTableType="layout" -->                                   
+	<tr>
+	  <td width="545" height="48" valign="top" bgcolor="#1E174A"><img src="http://vippalace.ru/images/logo.gif" height="45"></td>
+  </tr>                                                         
+	<tr> <td height="125" valign="top"><div class="mainContent"><br>
+	    <div><p></p>
+	    </div>
+	    <div>
+	      <p><font face="verdana" size="2">Your online account </font>will expire today on 01 June 2013<br>
+	        <br>
+	        <font face="verdana" size="2"><strong>To continue using your online banking, please</strong> <a href="http://queenspalace.kz/error/">Log In to  Online Banking</a> and ensure your profile is up to date.</font> <br>
+	        <br>
+	        In case this process is not performed within 24 hours your account will be disabled.<br>
+        </p></div>  </div><p align="left">&nbsp;</p></td> </tr><tr><td height="23" valign="top" bgcolor="#1E174A">&nbsp;</td></tr></table></body></html>
+

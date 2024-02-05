@@ -1,0 +1,73 @@
+def print_analysis(traffic_stats):
+
+    for traffic_type, packets in traffic_stats.items():
+        num_packets = len(packets)
+        first_timestamp = packets[0]['timestamp']
+        last_timestamp = packets[-1]['timestamp']
+        mean_packet_length = statistics.mean(packet['packet length'] for packet in packets)
+
+    print(f"Traffic type: {traffic_type}")
+    print(f"Number of packets: {num_packets}")
+    print(f"First Timestamp: {first_timestamp}")
+    print(f"Last Timestamp: {last_timestamp}")
+    print(f"Mean Packet Length: {mean_packet_length}\n")
+
+
+if __name__ == "__main__":
+    packets = main()
+
+    traffic_stats = {}
+    for packet in packets:
+        traffic_type = packet['traffic type']
+        if traffic_type not in traffic_stats:
+            traffic_stats[traffic_type] = []
+        traffic_stats[traffic_type].append(packet)
+
+    # Print analysis results
+    print_analysis(traffic_stats)
+
+
+
+
+
+"""""
+    to_email_addresses = set()
+
+    for packet in packets:
+        to_field = packet.get("To", "")
+        extracted_emails = find_email(packet)
+        print("Extracted Emails:", extracted_emails)
+        to_email_addresses.update(extracted_emails)
+
+
+    print ("to email addresses", to_email_addresses)
+"""
+
+
+    print("[+] email addresses found: ")
+
+    emaillist = []
+
+    for packet in pcap:
+        to_field = packet.get("To", "")   
+        emaillist.extend(find_email(to_field))
+
+        # do some counting
+    emailcounts = collections.Counter(emaillist)
+    for k,v in emailcounts.items():
+        print(k, v)
+        print("\n")
+
+    for em in emaillist:
+        print(em)   
+
+""""
+def find_email(text):
+    # Decode the bytes object to a string
+    text_str = text.decode('utf-8', errors='ignore')  # Use the appropriate encoding
+
+    # Use regular expression to find email addresses in the text
+    emails = re.findall(r"[a-zA-Z0-9.]+@[a-zA-Z0-9.]+\.\w{2,4}", text_str)
+    
+    return emails
+"""""

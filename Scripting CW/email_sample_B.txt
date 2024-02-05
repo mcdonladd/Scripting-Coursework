@@ -1,0 +1,141 @@
+Received: from VI1PR0101MB1759.eurprd01.prod.exchangelabs.com
+ (2603:10a6:800:d4::12) by DB5PR0101MB1751.eurprd01.prod.exchangelabs.com with
+ HTTPS via VI1PR08CA0110.EURPRD08.PROD.OUTLOOK.COM; Wed, 21 Feb 2018 11:49:38
+ +0000
+Received: from DB3PR0102CA0023.eurprd01.prod.exchangelabs.com
+ (2603:10a6:8::36) by VI1PR0101MB1759.eurprd01.prod.exchangelabs.com
+ (2a01:111:e400:c540::9) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.527.15; Wed, 21
+ Feb 2018 11:49:36 +0000
+Received: from AM5EUR02FT012.eop-EUR02.prod.protection.outlook.com
+ (2a01:111:f400:7e1e::205) by DB3PR0102CA0023.outlook.office365.com
+ (2603:10a6:8::36) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.506.18 via Frontend
+ Transport; Wed, 21 Feb 2018 11:49:36 +0000
+Authentication-Results: spf=softfail (sender IP is 146.176.4.2)
+ smtp.mailfrom=comms4.gkbridge.com; livenapierac.mail.onmicrosoft.com;
+ dkim=fail (signature did not verify)
+ header.d=comms4.gkbridge.com;livenapierac.mail.onmicrosoft.com; dmarc=fail
+ action=none header.from=comms4.gkbridge.com;
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ comms4.gkbridge.com discourages use of 146.176.4.2 as permitted sender)
+Received: from owa.napier.ac.uk (146.176.4.2) by
+ AM5EUR02FT012.mail.protection.outlook.com (10.152.8.82) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.20.485.12 via Frontend Transport; Wed, 21 Feb 2018 11:49:35 +0000
+Received: from EUR01-DB5-obe.outbound.protection.outlook.com (213.199.154.180)
+ by MER-EXCH2.napier.ac.uk (146.176.4.2) with Microsoft SMTP Server (TLS) id
+ 14.3.266.1; Wed, 21 Feb 2018 11:49:35 +0000
+Received: from AM6PR0102CA0002.eurprd01.prod.exchangelabs.com
+ (2603:10a6:209:14::15) by AM4PR0101MB1746.eurprd01.prod.exchangelabs.com
+ (2603:10a6:200:1f::8) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.506.18; Wed, 21
+ Feb 2018 11:49:33 +0000
+Received: from VE1EUR02FT021.eop-EUR02.prod.protection.outlook.com
+ (2a01:111:f400:7e06::203) by AM6PR0102CA0002.outlook.office365.com
+ (2603:10a6:209:14::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.527.15 via Frontend
+ Transport; Wed, 21 Feb 2018 11:49:33 +0000
+Authentication-Results-Original: spf=pass (sender IP is 138.201.89.80)
+ smtp.mailfrom=comms4.gkbridge.com; napier.ac.uk; dkim=pass (signature was
+ verified) header.d=comms4.gkbridge.com;napier.ac.uk; dmarc=pass action=none
+ header.from=comms4.gkbridge.com;
+Received-SPF: Pass (protection.outlook.com: domain of comms4.gkbridge.com
+ designates 138.201.89.80 as permitted sender)
+ receiver=protection.outlook.com; client-ip=138.201.89.80;
+ helo=comms4.gkbridge.com;
+Received: from comms4.gkbridge.com (138.201.89.80) by
+ VE1EUR02FT021.mail.protection.outlook.com (10.152.12.111) with Microsoft SMTP
+ Server id 15.20.485.12 via Frontend Transport; Wed, 21 Feb 2018 11:49:32
+ +0000
+Received: from [127.0.0.1]
+ (ec2-52-58-177-73.eu-central-1.compute.amazonaws.com [52.58.177.73])	by
+ comms4.gkbridge.com (Postfix) with ESMTPSA id 58BB4340754	for
+ <p.leimich@napier.ac.uk>; Wed, 21 Feb 2018 11:49:30 +0000 (GMT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/simple; d=comms4.gkbridge.com;
+	s=default; t=1519213770;
+	bh=G8LKLPea9YT0pHLOzUsDlblFxY+mmcjHYyvsNrqoW1I=;
+	h=Date:Subject:From:Reply-To:To:List-Unsubscribe:From;
+	b=Rx2lrh6e6ZcdDCeNo7FeBkFBF1nZGDCGfjquIv0kJoNpWco50BdfuTNpjpLko2Lz8
+	 RNjJyXM97IrV895WvHlxf8VvRau0ImdbP/RmW38G7JHK1xphRP7tmPz/akTRmCbrby
+	 XJYgg0rtC5qlXFyCWVs/ZDg02lcrRdX0iD0eDQ8o=
+Message-ID: <20180221114930.2f45xy7bzr9c4@comms4.gkbridge.com>
+Date: Wed, 21 Feb 2018 11:49:30 +0000
+Subject: =?UTF-8?B?4pyzICBXcml0ZSBXZWxsIEF0IFdvcms=?=
+From: GK Learning Team <noreply@comms4.gkbridge.com>
+Reply-To: <noreply@comms4.gkbridge.com>
+To: Dr Leimich <p.leimich@napier.ac.uk>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_=_swift_v4_1519213770_83abd012f3df91f49c3e231ee276623f_=_"
+List-Unsubscribe: <http://comms4.gkbridge.com?ebircsbus=p.leimich@napier.ac.uk&g=2987894>
+Return-Path: noreply@comms4.gkbridge.com
+X-EOPAttributedMessage: 1
+X-Forefront-Antispam-Report-Untrusted: CIP:138.201.89.80;IPV:NLI;CTRY:DE;EFV:NLI;SFV:NSPM;SFS:(8196002)(2990300002)(438002)(189003)(199004)(120886001)(16003)(567944001)(6306002)(1720100001)(106002)(356003)(1076002)(7126002)(7246003)(6966003)(104016004)(43066004)(6266002)(58536013)(733005)(236005)(8656006)(84326002)(86362001)(14613045005)(33964004)(42882006)(77096007)(336011)(59450400001)(606006)(5660300001)(956003)(3450700001)(26005)(16586007)(966005)(5890100001)(19627405001)(246002)(146002)(106466001)(7596002)(7636002)(6916009)(1096003)(19623405001);DIR:INB;SFP:;SCL:1;SRVR:AM4PR0101MB1746;H:comms4.gkbridge.com;FPR:;SPF:Pass;PTR:comms4.gkbridge.com;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;VE1EUR02FT021;1:dfEknIYVys6hTBgbv7l/cGAI/4yOzecIzSMzVz6wFDDlg+2IQlCCGyu+KTPPIqyFAQNW/ivajFgtZyFZxN0dSr3a3FoaH80NGVZTV1+TcgqYY+lBSHAS/YpCupzuWuYa
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 8db3c2cb-2f22-416d-47ae-08d579212e75
+X-Microsoft-Antispam-Untrusted: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(5600026)(4604075)(4605076)(4608076)(4614076)(1401095)(8001031)(1402068)(71702078);SRVR:AM4PR0101MB1746;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;AM4PR0101MB1746;3:qwW9/GhZ4avsEneftIuaHwbA17IDH5c2GT4JNNJ/C4RHT3YCPuHGHfCzXU2k6f2LFSHbJxtdIDx8zk6OVL3NkSrt4jJPHYo53eTcKyfEnhjMc16N0Ybhwe52KR8srmOfB5eL0HarGXO6yi24oCV7qZyu00/jbnWQPcnffkucbqiqUw23Kzpa8B7RA9g6+vcZtbhtv8d5dGVf3L++dj7+1tTmvD8IPWsUW3XlfJ5CmiyW09flXMq+dwiuBocwK3ZZygCk1D1lu+dCgFCdgtOguIr68juaFQykI/ttcy15u7hBQ1fbzoUtj+OxFP/mioofFO5hWVtDHATgM0H/r+zwW3ooUwmrfFhOkuYUrS8sTSY=;25:d/kAnueDqg0M9nI0Q/PrlQp4Jk7W4HfiTz82X1nj+tCFlNMX6bk3TpOubd9Q0EV6hz11dkereCk+XUkXYhGjbfJdHdJT0xd+D8/DVQHSKUiqNfwPmAHQxkHqFqXr04qdy0/Ba7/FVwGkSaoKXtWeutW7U8KUypxL4uMnP9f3Rk8TY2XoUMV9V3C3vWaeQPxZpMoYNpqtZuzzRmaUEWeZV62dSqeOsqZv1VxPHknHQW7HrAg+OKHzyheStT2BLn0Nn+JUnYCYJ+m0haOLxAN3/Oua5MioxusbDXJnIwvEf1wmSzqfJneyUM+8LN78j/Mmzj4IuGxGaBtMTt0cWjmF9A==
+X-MS-TrafficTypeDiagnostic: AM4PR0101MB1746:|VI1PR0101MB1759:
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;AM4PR0101MB1746;31:vjaIbkS3w4M5vCQTKi5CYS0iE+7uMuumvOy00rHZYBMOaXA5qaTlE/49iJpXSe7QWDg6adp0INcmTCC3e0enFRj8vIpjLkUCaHnUBs5lX5liDAAHATOtKgEPHBmWPlCQwX6Ghx0VSgVCGn60ZkxjC81Sgr+rmlM99zkp/shiQ8NkCkqwUB0dL+LPxRkhU1pVoUocHnv4WePByQNlZd0SGmxxOcTU4Nundcpji6c6Jik=;20:MYwPT6vESmdg6m+XuGzPDC+rNMPT9scezgpriIyqsrZMHoXeD2A+3akpLOFVuOzC6OGxX6uH6y5bBO8RIgPZktcAgpfBgIVtBKMJ+yBUFryhbXT6afDW3AmxO7wZXu9vaofXlkRm5Je7I+Vvk9ErqPffLioVDVeL/IFeD2XGNwTEdUrR6vUh6Ef472oycbMfXGiAvWcDQxESbz8uPxnLs7hzwFw5b2E/EjlIIydj7t0qs/wYa9/aWnXxfVXMLs514dsaDtOx0hLexOfOPXgM6301ESyMbzRG/mg+/zeYu+V9CJwFFkI0qYokY8ifBlrrpKRXQQW+kOPrnZ7FM53KISxhV8fYJxlD1XDctgfpQr7g+uAaKReb2vyBEP+5VMkrl8GojkRSjS3uFCf9hK24Ff9P81ybryegrsr/W6+9vdzhA050ZqMACpp/QTdyKj9kjwwVdQX6Onx3wbbc0KPj60lgtMOL8vYG+N00MJ4/0UiidjakD2CoYw1K8IHkpZEd
+X-Exchange-Antispam-Report-Test: UriScan:(190756311086443)(192374486261705)(67546534810915)(224945534805241)(155532106045638);UriScan:(190756311086443)(192374486261705)(67546534810915)(224945534805241)(155532106045638);
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(2401047)(8121501046)(1430306)(1431041)(1432103)(1441077)(1551027)(9101536074)(10201501046)(3231101)(902075)(903095)(944500087)(944510158)(944921075)(946801075)(946901075)(93006095)(93005095)(3002001)(1610001)(8301001075)(8301003167)(201708071742011);SRVR:AM4PR0101MB1746;BCL:0;PCL:0;RULEID:;SRVR:AM4PR0101MB1746;BCL:0;PCL:0;RULEID:(2401047)(8121501046)(93006095)(93003095)(3231101)(902075)(903095)(944500087)(944510158)(944921075)(946801075)(946901075)(10201501046)(3002001)(12181506113)(1610001)(8301001075)(201708071742011);SRVR:VI1PR0101MB1759;BCL:0;PCL:0;RULEID:;SRVR:VI1PR0101MB1759;
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;AM4PR0101MB1746;4:P00nIKtlR1Mkmr6vVUsmtxzxLyNJtZmV+NEHmHVCM3sqoFP4mKyBZ6qjoxO4ZJ7SCiZb0V+tjbQX981vcJ4S/bkZ0bAypoeYhOO9Dhr9LUM+C6p8BR3tgHIXKUMd2qbWxhjTHMBFndv1oetAmIRKOhaes4QjHoxVv4wg4xftLzLbE3hx+Jc6NeMYGroXWP7AB7rD3OiCvdUKMCDArIp4RDJGJVfhEBuVuK87NvV28sSV2fx9c5FcQrgT7JT6g4fOAk8rrUoS7NMw/1Qatf0fc/ADCov/xS1vu7RprHbQD1h9xXKvWyq6MdZfYflTGaQOQd/4mhbXQmcMDrgPeHH9t9p+4cTV1bUd/PZs0saENDoOqjMFpKqhOpPOBcO986qbZCp7vVHINCrgcyp4Y/Db6RsJFhuJGdjQpZd5O1RoJXAQYIu4f8tG3rCPlXyCvv5tU/+6D1z2amCWG2lDNBh2iQ==
+X-Microsoft-Exchange-Diagnostics-untrusted: =?us-ascii?Q?1;AM4PR0101MB1746;23:bIhrcn/IyKnO2I6o/Dxp6PCKYzbsvleJPV1DYrd?=
+ =?us-ascii?Q?RZIJqUBB0hZXYypKBWIgwdIkPU5R/mnKh908FegWpeBWKUuEsQqQzVFdE2pA?=
+ =?us-ascii?Q?OIg6QVwDYNd5lNGSAdRFfLRRt2SX0y4ROivbg909JDk250wjw3SKbeJbMw+q?=
+ =?us-ascii?Q?10FoMkV08UbjkqsUbGN+PurDmPrwcxRItSJdPw2rs8rlEuG7nMRlm6iCTzwg?=
+ =?us-ascii?Q?Q8CDpBVIKWHa4KXMaIgCM3Sex1nR/w/I/8Dtt0IovMbkLAsV2+koRvdYk7t9?=
+ =?us-ascii?Q?+ohXzGUehDU1Iz2tBqlNegoMpUZbjFC2OBVSRQHxhbABNGbz7Wnm3pu93I6r?=
+ =?us-ascii?Q?3+3CdWLz8S02Ht/Zcs+mOxeVWQQKVwf1RcTvjwUBITc3Wudwl8FUYVjuJ6hh?=
+ =?us-ascii?Q?yeUBAg0gI67yzEXjTG6bDUl4qcXYlcxDqS5yyMDmrRckcIvW2sT6RKynEgnD?=
+ =?us-ascii?Q?UHrBicQn38oBfQWnmaPs/HFGyFHeOjoi8PEQmz6qAd3nFoQ9OxgdTAkZIZYb?=
+ =?us-ascii?Q?YXbNSAlE+OEO3Xd3Y0HX4P4rPiNZBC2I6ceQQ7y9rr2eej5472dX1YcylZJM?=
+ =?us-ascii?Q?nsGMrITAvW1heMy+K6ghTbILx24a9c0nezDsiaJomhcb94WDPOE9GMnE/AJz?=
+ =?us-ascii?Q?6eRjECLwL35h1y/Uq/v235UtBeSeXnxuPrTr4lJ+adzBNkmN5NPGyJrotOtK?=
+ =?us-ascii?Q?Okd2mlktm1vQ+GWmH2VnUgYH96PRm+aygP8NIHxW1kE0g33DlWxpMaSkwab5?=
+ =?us-ascii?Q?o1NxMhkpe43rYBfGxsvDXU6xQCI8u/TnCZR03YcharUBGgtfaUipzZu7oKdc?=
+ =?us-ascii?Q?TIack644d+CUgQ+vt9YzZNzIxMGPMxIe1Uawiic1fJypJvnTl4Bzd4B6p8aT?=
+ =?us-ascii?Q?6eXzgYAhl5Tg2GTjbTZG3vrWPJiwCtYpK7rz5QkhIziwxaemJl9p/tEc04G+?=
+ =?us-ascii?Q?gU44ksUXdIpB06taRmDB2MERPAZx84L9l3CpkjsHuwLLuP9Qba+ORt95hJOF?=
+ =?us-ascii?Q?bLQ3qC9gS/JnGa76m2yrVqb9YWmQhO4mccQB2ASKy6f4LGFAishUHBQ0IB50?=
+ =?us-ascii?Q?yt4HAj3FrKQ5xs4W8NBF1Cy+X4YAtW56bl5KAEylSu3PsDazzPA=3D=3D?=
+X-Microsoft-Antispam-Message-Info-Original: 7+/ojuSIJlflRMm3ivGiegyeiihD7sM7YKsfq2rtIn0twrfQ9geZIEVRd6sK2jJ6FM6IZpgJPdUjUNGP7Cuo5OGYU5tENHh4OyyyEg/wNEU=
+X-Microsoft-Exchange-Diagnostics-untrusted: 1;AM4PR0101MB1746;6:Rwms7wRBW3QgY1Hu5pMrcG4945ZA1JTfx+f5rBCS1AFqDCUWCQg1VKIGQBcHgueRIrmH7UUfMJhdNPWEq3fvVT0F9TpETGrxVTLUpOYSvPUfBLqHR7a2zUqeZpjedhoGcOigO5vcmLgkJv0Dv66YfZQ8AgfzKRrFgHwQW29/5V22tcnwVHnwVnkjEUdxd25CLrJ1x5z07mUXj0mupe/XRsxtEZtECOBHqHlcUDEvA7DFWFJVIsksAKcXFw/wzRjxEOYf40v3Zyj//CfyU6KzRlCuFCYiw49MbXXVzpfcyzFXTZSvnwSLyyMlJYs/kKTUNwm2htsZvGZYkcoPipb9F9FugidWO2Xd10LOjRjMza0=;5:0dJ5ev6rSdqAIuLyDGhomnpKDadZmiIZNg+mjy0ApWB1tAjzqnXs3GNPZNKLAHrL5kAkYP7sa48fF3h69dCvCubeOxJR0fU5mFlfwKMTP6o1T6rBBk5SvK9+0BQKwbKqTAaKyn3Auz5nAj9uEAp3cUJFM0kGdIm1yh7Mrz4PDAk=;24:ruEiu228IogQIYMprgKbzrQugepJqPVovyRb7ruLumBT7Hh4jBFI3mqs0bXLrr8ST5q0vj02kvSTnXb09Asy308cE3Qj1dHePzajh1MLtTs=;7:A5ywOV4AgH5nW6hVypu9RVGWu4FO20LCYShVxv2nM8JoJw5dbNiGCccan17AI2yK9ckjhrpBagC38lLIvSyjOEAqDgYR9QNGPtLqQ/QLcg5SJwtA+mE1sVSsrIXaCFs4KZXCu7KHVymwK6XqTeZwMQIFVUSgiF6QvNtZ4DOsnifOThCUx0tN/mR8YYCoQhXMs6/yqBCOulLTY7ioc93bZslsDD7xRI3vFkVGkSEzLhrzGpRMx6mD12aHY6kUk713
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AM4PR0101MB1746
+X-OrganizationHeadersPreserved: MER-EXCH2.napier.ac.uk
+X-MS-Exchange-Organization-Network-Message-Id: 8db3c2cb-2f22-416d-47ae-08d579212e75
+X-MS-Exchange-Organization-MessageDirectionality: Originating
+X-MS-Exchange-Transport-CrossTenantHeadersStripped: AM5EUR02FT012.eop-EUR02.prod.protection.outlook.com
+X-Forefront-Antispam-Report: CIP:146.176.4.2;IPV:CAL;SCL:-1;CTRY:GB;EFV:NLI;SFV:SKN;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:VI1PR0101MB1759;H:owa.napier.ac.uk;FPR:;SPF:None;LANG:en;
+X-MS-Exchange-Organization-SCL: -1
+X-Microsoft-Exchange-Diagnostics: 1;AM5EUR02FT012;1:CmysEDmNEHC/HIsm8iHwBBWd0Z9UNHQLeaSvpw4daLdmtKLjtP8xg34wd8xPHL9Rxa4wsjMQZDw9ixN4+MfkuHRe3BtmTiL/USqqVeoV+qJqrCwERogCcaDMZEeIjHdz
+X-CrossPremisesHeadersPromoted: AM5EUR02FT012.eop-EUR02.prod.protection.outlook.com
+X-CrossPremisesHeadersFiltered: AM5EUR02FT012.eop-EUR02.prod.protection.outlook.com
+X-MS-Exchange-Organization-AuthSource: MER-EXCH2.napier.ac.uk
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-OriginatorOrg: napier.ac.uk
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(7020095)(4652020)(5600026)(4604075)(2017052603307)(7153060);SRVR:VI1PR0101MB1759;
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0101MB1759;3:hu9DIQC+2JWz9XSGg6IWZJf4XCvNz/GPqlBTXjb4aUHnnmpV+7DdEjtLHWCQhRn7/F4SL+QPe8QbFwbGwZ+Ss1PJNdo0ByMAZAo8mQmAedAYyN534bAbvZyevI1z+7e0vkNkekVEHNSI4y28Fsx6xtu1hqXyuMwcgt6xoh4mqpjOXjNxpi2w3MpsEZAMYtJZYzjzQfmlCopqVf7cb36nzL+MmbIANXqSZ3rvwVgjXQ9DNrthPzNkeSSmh2xAOtY7WbhOLPwMN5kX4lgUyXS8EK9XgWIaebNnVPwN78WL0ofrkU/PRvKcZuWhlBir3l5niofYOIX+c4Z/i0f5pl75Sw==;25:SnJoLuxFGlTsdjVCZxaO02bOalsegTqgoo/vXIrmTjFqDM6Knq7aaIxqNkjNYy0IMC2/wGEsiraVvIlkgak6Sg15tSzpJJKWJdbDAfihqHvC9sFcw5Qly9KRnMOsmmxgfuPPfwlKCsBjkU1s3LiaXuPU2g8Y5PcJZJTwBU6dOl63bUDRFEGARqdcs1OlQQlkbFsjjCq8CTkwnK34of28pP4SOyRAkKXL8GnIpvVmGA2Dt9BOwWYVQaHWiGF2NXRaoJweTQoBwzxA0d/txeswy0iYpIl6HUSirftT1RVgKCdRx6YGJ8dwnJJyx/p0mwboWqrU5xSaAajmL3z+njQQpg==;31:njnHuttRATq8PX2s4XLncQH0a8R+3cFV4izx5doYtRn12iXGaabuYNMiLiKkK0LGaoLUIhlTvc99ISkPKK74e7DcVfzraTIuG5WhHWA3bEZr3tps8nBA5p2G59dHw1kc4HUjPBJLKAA4taXXIqdx69moWgYaZ6UNLNiIdQuoH/T0BqrELtFWnOr+q+WQwbyMw6XIWXldaiCoPCJTJ3CRVavP/odMej0ZlOa2aIVfDcg=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0101MB1759;20:zUW1qkSgH1KNK+1DneBm5Y8J2TWjLJJHc7EIz5D9FDDEAYbFul71m2nCwt+k4FMptw71TCqtzZptUHMCQhgCSQz0FvzQ94j4plIPhCvLwbu8n4R9jjLV01HUIDJcxdbZJVv0MUw+RlCTBkEVni4ZlaDpWsSinAC8G0BTrC1suSlCDwiOC9akCcoehcK5G7y/Vkou1PKL+ren0LwvM5hKPqjvBQAUW/vfLlGEZh7vSPoi4n0Zdhb448nWD3uZzgHCgdy+7HjeD9TKA5jvcmlFX+q+ZKTEqiwnCatfrehmFhoQrDjiHVeLiO5ORo0vYCEAvB8sGTBdyk36tMDFga6Cx+gTNUdNeTv8uXLk9luuAp+pOQbb67SmjFYoLsWfH+7e1TBMOKgLW8HaKE4D0H0Lr5NX/x02DfMyh1cJtCmA7vI+QHS1vEzkj3VxXjY/0THGv/1/tu2qUJabHb74LoO0Wd3uSn0liykC5ZhtWVtvbTsC+gIX/GAnGNQvIJgHYeEy
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0101MB1759;4:uOvxLiUJMfP02oX76N7XJCts08hVGRYW6BpNQvbfeL1RSCny+MOuC2kSirwZGoMNsYxIA9yukrAKFqZ2WNFuPhqh81q5FU990c6fxYlr73C18hrUr79xySWPjY0UGWXJ2LxJnJHYwEZ8+SNdl1+zwg/VPxfhvwbmGr4qs6n5mKsYueHKBTmnINXkfHlaJGABUOgoUaESN/3sc2ATrf0X3ocQWV1w2tFkNZZcDiepNjrLesVu9NqSRpLRKJJI8eoFPz+vkKk3M4RQHjjezYzV6U7qw/N/h9Ejgf5X5fvsnRMLsINPfluJGDWBj2oIWJdhBjXKGJcSQt6WvgfIcI9CfNM6RknobcVWu1XhA7jf+UUvPCr3TvADdLB66+uERZ1jogCVsG2tLSj2jbreANlaRE1nCLFPf5VpGDotppb2FhWeSwBPNpN1rKIO1C34jc6qua63UVwsAVqkwD+qW528GQ==;23:4KwcuuBvEfoL8iCaqR/LwxBW5aXVCINbgck2TVuae7klaMCTi950DwFETvP09KlHJfIg18/HjPMjDnoCdDrXWYDcdSzk3erw+73HOIKhXpULfTDAckH8rvxguWkL9jRBy7Ug4ra8vtziH7axOnReEO1CS9ggdHutV+rb5NpPpyak66/Y87IpIirQtwSe2Lbe
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0101MB1759;6:jfZOgz8t8sbcBWFDcknvow2LxeC79fw08F4T1R8RjkTvDgS/hAHikKewmfexLX1AU1YPm8RQ+nYqSYI8bDMPkunnopOhmczkfl32amSurg+UEbt5zFqpHVqqAEqe+WVfEuEL3/cKUZHSrBZSEyc2uW7/m9A9x7ubK42b8WVo5TZT+oxELcthAR7tSr1nQ1tNexw5BFbs2haJ64Nx72dV48isMNMD4/HVRozv59wFabz9ZmqbSWPKEmF53yBQxRETrfHWd9P4EZk4viAlZMUK4Yis9UTMaduqZtN0ZPaQqDz46hIr1p5OBSuGF2Rz+7k0pqnkZ2z8CaOa4FxoVjV3ndSUmkNL0FJ0powSgYl++xoNPepC4s3GN7RcyKYYVSZOT+Bt+k7qPMaXDcFpC5Qs9A==;5:XrQmb/RKlrdcmtPml8OD9rAR+KI+4gRgITbkfpg6YhDdAcrcmFb2ccj+sM9TIg2eWrNyxb7e3XXgN2V4ty8W3OymgSOBEENEUIusOYCsqxguPwscmcgofM9keNakamnHDV35RO8vsVD4ByeGTpmPSPhycTXq55Ol2k/TCyUe9fE=;24:GPOT5RIM4Kmmja/yMDyFLeBMwWyJ4QR48M5EDVK1orIwMmQulfOEFJ501mf5bP6hPLQxEdfXkUJgiDK/mT2bH4bi/3BWZfM+K7aALbByGL8=
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR0101MB1759;7:DsK8xSgpmgAjzdQBi/vbV8YTVDbRTai2geASbRZY3mwOMOOEcO4XasOETjMMx1QHGQArzpNylSgZ09VxuQmSDGlXteS/y5w1DDBtPNLAnKkKZaiUR5KIwOsDb2c/JajJd9/h0XegqOpUNge8ZBYmb4Jpemd9j3LLLxfHja8mCisDDdC0k3Fc7FE0EEfgqdGr5ltdnaoPn6sd5DoQbo2mxPGl/wv86VkvJsdE8HTf2BVz2OOKgKURftmyBc5ovCuy
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 21 Feb 2018 11:49:35.9831
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 8db3c2cb-2f22-416d-47ae-08d579212e75
+X-MS-Exchange-CrossTenant-Id: 99e0dc58-9c4b-4820-8617-04c386c254c6
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: TenantId=99e0dc58-9c4b-4820-8617-04c386c254c6;Ip=[146.176.4.2];Helo=[owa.napier.ac.uk]
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0101MB1759
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:02.1396322
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.0506.000
+X-Microsoft-Exchange-Diagnostics:
+	1;DB5PR0101MB1751;9:+QlKu9hJvbImXYM5D1xsQSiE80PP2kj6FEwv3fK2Ckhu9Xa8izy9nKFtW6Afw3DW1RixEE0GngM8uvk+pcs2nRPxj9uCkg/uCUUxK8vSLAxPsMIutsqp31h9hUSfg05h
+X-Microsoft-Antispam-Message-Info:
+	6EMr/NsO6+nP7vGhCT/WyF5VVKC+VXRvoFZnxcQdwx0BTc7hluirV8LQMPagN3/Sp83ytU/97xu2PYcoKl7Xgj3i/5NxJ4NnoEllewtebGIipBUR8pf8ARS7RRjY0/XGY3Uon7Vs3HvWJ/jk6Dyw62rbEblmQuNmEpxWpW3k5utH5bm6T7Sg0qZp7+SEaP3IMMdwP2NVgCk3FfZS36r79Q==
+X-Microsoft-Exchange-Diagnostics:
+	1;DB5PR0101MB1751;27:SBDdp89x+pDkvdgX+XScNSC1DtaaFycnB2BaQVioL/ODzm8vv8DWMJIIMjHAlyyPNorc9O1Toxuioed+RIEadkMJTfCNgd9h29U6HIEx96q3jEGGJrQkntJhHG/bdnpQ

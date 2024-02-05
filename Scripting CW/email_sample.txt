@@ -1,0 +1,109 @@
+Received: from EUR01-HE1-obe.outbound.protection.outlook.com (213.199.154.215)
+ by MER-EXCH2.napier.ac.uk (146.176.4.2) with Microsoft SMTP Server (TLS) id
+ 14.3.266.1; Thu, 4 Aug 2016 08:48:00 +0100
+Received: from AM5PR0101CA0011.eurprd01.prod.exchangelabs.com (10.169.240.21)
+ by DB6PR0101MB2487.eurprd01.prod.exchangelabs.com (10.169.221.144) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.549.15; Thu, 4 Aug
+ 2016 07:47:53 +0000
+Received: from AM1FFO11FD049.protection.gbl (2a01:111:f400:7e00::199) by
+ AM5PR0101CA0011.outlook.office365.com (2603:10a6:203:2d::21) with Microsoft
+ SMTP Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384)
+ id 15.1.549.15 via Frontend Transport; Thu, 4 Aug 2016 07:47:52 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.215.47)
+ smtp.mailfrom=gmail.com; napier.ac.uk; dkim=pass (signature was verified)
+ header.d=gmail.com;napier.ac.uk; dmarc=pass action=none
+ header.from=gmail.com;napier.ac.uk; dkim=fail (body hash did not verify)
+ header.d=gmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.215.47 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.215.47; helo=mail-lf0-f47.google.com;
+Received: from mail-lf0-f47.google.com (209.85.215.47) by
+ AM1FFO11FD049.mail.protection.outlook.com (10.174.65.212) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.1.557.8 via Frontend Transport; Thu, 4 Aug 2016 07:47:53 +0000
+Received: by mail-lf0-f47.google.com with SMTP id f93so177085353lfi.2
+        for <p.leimich@napier.ac.uk>; Thu, 04 Aug 2016 00:47:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=r7lQ1YK7F+wQu5s5PkS0xYmVO42ryLN1iGBX5SR/erE=;
+        b=ixTfCWigySryIGY6KJKeluuCikNcVUVBlx/OF65hNrZUFaD9iRDVuIp4cj6dBQBbqd
+         +4ngMgyAqGpKj/rouxJznj2HQ/7kG9VesDv8dV0dS87RRGJJNWYI9Q4FiGM+3y4wDNby
+         npmd1WAxi/62Haytlxi33PpUspULTgHWL33kK5syDtG3g9787WFzTKRXiUGA9xaYn9uk
+         pbHPcEJ3oyhy/CsWmDB1R8LoGEd6ORNxlS0G7IMqncxozpYvXvZzJOpnXT3Z4YTEOXrj
+         K9YR0gOwJAlAS0CeQuxQbjo7f+QHxnwUNydszSKcA8jefkWSzsDo1EVE53oVuq4Sl7+S
+         FevQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=r7lQ1YK7F+wQu5s5PkS0xYmVO42ryLN1iGBX5SR/erE=;
+        b=fWXx4CfiJ3WJsf2QfuhHaj/SYB0huVXLoxhZhFBERp1LugQPzKPB4PVhDWpFey2Sym
+         ceYBPyOci/9Iewa5ftv/eLKGP+Up//kebDIKiZN1OQ6qc69424+zTDqKzt8SSPnEOpQu
+         uLr1+V1myIBKYh7ACatwcVbUxrSbmmif4mInX2s7UhVFOLmGjn+t/9/wTfq/gSYfmsSf
+         O3EquQhUrMLtCbLZAoBAMPC1WvLiXWmcSCjqTpBQt/yQVbaNHy4i2Ftsv+Bu/MziIZBO
+         2J5Qm35zw3/9zxu+7KLuutvXpHsn3NL7JACsmX+GyZBGJVH1wFlu2nNPEf5KeNfp/sxL
+         ldYw==
+X-Gm-Message-State: AEkoouvgP91iIuk9QXINutV1SZy6Fr/62vUtudRBvCScwmDfshlxd8TW2dz0S/usUFlje4hzMn4Wtq1hUBzbZA==
+X-Received: by 10.25.207.10 with SMTP id f10mr19707841lfg.108.1470296872670;
+ Thu, 04 Aug 2016 00:47:52 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.114.25.170 with HTTP; Thu, 4 Aug 2016 00:47:44 -0700 (PDT)
+Received: by 10.114.25.170 with HTTP; Thu, 4 Aug 2016 00:47:44 -0700 (PDT)
+From: Another Me <a.nother@gmail.com>
+Date: Thu, 4 Aug 2016 08:47:44 +0100
+Message-ID: <CAHOiNVADWrow4JAmnFd3fruMFY3+v+bV8E99zy0Kx9nMtskMtA@mail.gmail.com>
+Subject: Emailing dissertation_draft_annotated.pdf
+To: Petra Leimich <p.leimich@napier.ac.uk>
+Content-Type: multipart/mixed; boundary="001a1141886ed0b45f05393a2a44"
+Return-Path: a.nother@gmail.com
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 99e0dc58-9c4b-4820-8617-04c386c254c6:0
+X-Forefront-Antispam-Report: CIP:209.85.215.47;IPV:NLI;CTRY:US;EFV:NLI;SFV:NSPM;SFS:(6009001)(8156002)(2980300002)(438002)(189002)(199003)(93516999)(956001)(50986999)(575784001)(54356999)(11100500001)(55446002)(63696999)(568964002)(562524006)(107886002)(586003)(76482005)(86362001)(110136002)(7846002)(84326002)(83322999)(512874002)(81442002)(7596002)(305945005)(573454002)(356003)(8666005)(229853001)(42186005)(73392002)(106466001)(564344004)(87572001)(8576002)(1096003)(82202001)(7636002)(8676002)(73972006)(246002)(21480400002)(8896002)(59536001)(567704001)(5000100001)(4610100001)(4620100001)(2476003)(450100001)(61266001)(92566002)(5890100001)(7059030)(563144003);DIR:INB;SFP:;SCL:1;SRVR:DB6PR0101MB2487;H:mail-lf0-f47.google.com;FPR:;SPF:Pass;PTR:mail-lf0-f47.google.com;MX:1;A:1;LANG:en;
+X-Microsoft-Exchange-Diagnostics: 1;AM1FFO11FD049;1:xf2rHqjrhKcMwJWN0F5+iVSyRdL3HMrJzT6ZIwiXMj1qC8dbgZBGRln54lqIm/rb0byaGiwMar7zzNtXIF24hJ/NOwEWmYkCHEDanU5JP9PVJd4/0wJSBGfQIgW4uJdUY3Thtvz2J6K2fixhahGV2WaVNaHnv4RaGgONMG7Prkk7Ujsw0h8+cKxQGnu/JHYRCsU9iikcEEiWbqAUMoQLLs7PxYkGIRW6A3VDJDXCjXQqHNABB6Fe3/0R2ATWlq057wtQqE+3cFvJwmA/8SYfGzlyBhblhDD8fPQJtg+Q4c60wRrU9EyNJiNHyYb1mYa8AL0MBkLZmWLlAGO8pPftp6CqlvtCossYVvokWZwzEadgUyT7SdxZL7K44Ss60IMTTXlCUiylb3nQqmxY8HS7Q3eqRLc4HLuVYKRk8ZwMuZZY44Ev13l7lgSJ2KSaT6RJi8QAZyAWGZ/tS3kGv+SJKPCXSynx5lK7uF40aNVG8MB+ASu8Z/rTwSo5sMIi4bbroej2zgDIjohwRNWl/mw16AJs4sUu8jiSpWLpMibaa3WXyuzlFehZnhaZxmejq63Zt9AdDEG9vz3QiKLXD732Eg==
+X-MS-Office365-Filtering-Correlation-Id: ba04b4ef-1cbf-4b05-ff3f-08d3bc3ba490
+X-Microsoft-Exchange-Diagnostics: 1;DB6PR0101MB2487;2:OnAyCqcQooPaUgg7mg6/rrW6qYjFyFIR0TMy20lmrYsvpP7bNyvAFcJO6ciNjrA+DM8jAFqBh67DS0GiDzSelq/rBTBqz8kCC8gl21UGWtpXJfjF8/duW8bD++AiKxUrmXXKSwRF3aoa8q497DfuDpN+gCfcDFVubjL0G2gg6crjQLvt6EYL9vlIUZYnWzRj;3:DRvs8DkbSlnF7Hw1ebDPguyZw9jM12lzYp/Z/U1g4M1EpiDvDfvcrcXGrpfrDngsRyxO1fwunuy2EGv5mD42SHNkyN3XsUOx0E4Oya1sbokr2hL76gIa/dRV0LNFfz18CauE8WK4+byhIThXuRa9BL5Ii81QTFpATt+lY77DeW0AaJYVugUvCdbWe6tjl9IO+TCtx345RTdGdzlxjXc3wYLwNcmwbPYc4JUAmK4uJ3UEa2ujkcr3rVHBs7JMUsoaJGGRrbRJNi5AeJd4BAEEqXN7kWpfdgNpQ0YaaqGCIbmC+iMmjXM8DadvndgHzYANziIexBClwSkx3cogmY/TyMubGW7SppsJgp8ROgyyaqo=
+X-DkimResult-Test: Passed
+X-Microsoft-Antispam: UriScan:;BCL:0;PCL:0;RULEID:(8251501002)(3001016)(3010002)(71701004)(71702002);SRVR:DB6PR0101MB2487;
+X-Microsoft-Exchange-Diagnostics: 1;DB6PR0101MB2487;25:JrlQJcBuIjffropjdFcFSdtq8WsYn4XlXNwe37xLLfE9t1LbpOKylgdR9geNK8Kkc7YCMJuGP5iwW4kQOxvUa1W2+NNIIV+Jw7u5xlRbpbgaxtwgdcWEUxdHjq/dYmwtct3iDfwjzaWfiihA21rp9b50Vbk+ew9NNjChlCIJocW3ogpPG/4Qt34D0EYIPM9HH04GDHt9+0nRDq1LD3NwAJ/kvUEfBgVbGE7kRanGEmV19jFu0rwBNUsGOjCMxbG4KSmVMsJFiJzQeZcCbhspM/AX8rzQHLvATU6Rc0WAeBTi4LVBkDpOC1+T3KpWGkptKFR1L5NhGwRJp84Ft+Dotrgj/a11U6VcMXppwvflKMmKw21CayZ++FkzJwXRpmCTpmjeJJ+K4av2ce6QZmHVrSz8E8zG99W+Elb0Nb/TExLsUdAjKB41XXr+J+iN1tJWweRAd0/QtiElQLAQKIPlFg==;31:V803ndtycfXLmu0qQyJEX8F1imsw0idEv5PoQmm3LDXUjggfBPieLj3NbMIdq9+aG9s19L1RHiis1acf0JklisRqsX7qDNP1qbmtUEcpcW+7qRbylTgg94Cc1znNxNI3
+X-LD-Processed: 99e0dc58-9c4b-4820-8617-04c386c254c6,ExtAddr
+X-Microsoft-Exchange-Diagnostics:
+ 1;DB6PR0101MB2487;20:Fddm345CfyLbx7u209bkqBiw4ht84JuC7nSVQgPtiheK4lh7t4R6Bjcu3GO6IvNItcQf2irYHPOwpmT2aZAXMrt4k5MRkD6dCVKzLeeokPra572tBf0xEgobw9WM7VgC547OfoGm4/Aj/LRiM6RMTia0qbyqRGpI2ZjfmJRuK7QFQik3lsdWcvs2vFOtLn/MuG02iJs9UpUITGY8N8qqqh/Dbmi4BtOJa5hkxUoWYTKLeuYmpxRrCDAyUMStpyzNWBeqAu0QccqwsgXBe4OYPEc7aZYOLul7p+VcVq1QYtrfH1AdnEaAa5gEp31nGiLUc5ZirE+C5XOBfjVYahS8yoeYXOGsumZ/O9bdWNj1kXZAiTXG09ZpVeMfHchB1p+4obe6mGuNEohWkZVwF7ZN1Le6JRDpRo6KSfMl0pZC2L2cYcEGCPUlMoSnzKoXtWjHV9+sJvNG7fG/tNd1gbsy2lQ0JJNISXZsABW4VZGcOCUPxiCHC4TStYnP60jn0Nns;4:NYmgYL01pxnv9lMlYRZCwVjziUTam5IU5pjTP0gGSrgXQj++8wp96IzWViGGS9vButWMYxawx690aotOLsikadRYgaVEIAEFgDLuG5OZyqcuFOScIA2bRxEH8XC4yWLaRcuEBiWtOTY2JXq6WrH4zRxf9X/PE6yBOCDzNDkxlDuvjsGkUQ6WaSwivjCt8Fl+8GUvCSpIse/H29+hjg68oTVhN38hsyrpPhY2iMhL4+axapi2S6AD4mlbHi5/cbQ1JgawZQSS0Sbnj2uEfmZuW8skAeXEfYlaFKr4wVqBnAoY4u/UdEGu3tEntOzkoTCzUJw2GnQZUXaDERQLxRXE9Ydhm1N+ojmzcYDUa+CuEgDUebnQDlpwi98zbmfj7bj1IjFAqG0bmgsWCcoUrsAhCb9PmKLpE+2jpRQ+s21NsoYmtBOITQc/BhX901J1Mq5Q
+X-Exchange-Antispam-Report-Test: UriScan:;
+X-Exchange-Antispam-Report-CFA-Test: BCL:0;PCL:0;RULEID:(102415321)(9101531078)(601004)(2401047)(7630418)(13016025)(8121501046)(13023025)(13024025)(13018025)(7631346)(7632298)(7633261)(3002001)(10201501046);SRVR:DB6PR0101MB2487;BCL:0;PCL:0;RULEID:;SRVR:DB6PR0101MB2487;
+X-Microsoft-Exchange-Diagnostics: =?us-ascii?Q?1;DB6PR0101MB2487;23:wzh6Fw8iQSBEd9Ky6Q2VLTUcLZEBBlW2XjgD9o8?=
+ =?us-ascii?Q?SftJY1cdlX51eJERVlrvNC96POVDrNvxmj50piavXYXErUfBUmWx18dv2GuL?=
+ =?us-ascii?Q?CTBYZbwCaRw4NccYkQs5UVPVaTIoXmD13brmypHFiPumDjZ16saqqp05fCgW?=
+ =?us-ascii?Q?xJSYW2dZe38Ljdlw5bjGFXkq63W9OKLhhXhrtSvHtwZFYr1TQGaUraK80bnF?=
+ =?us-ascii?Q?xmZLDHSK5rMx5TCBNMW5bHfmkylsKZAgA2jdx/49HoS6QzEI2GmvpmEkilQD?=
+ =?us-ascii?Q?176qITBET1cuMrdvtnxs/a2iiDsjUOQNFW+W/mwzFGQzhlXgXQ3YAHXDDX39?=
+ =?us-ascii?Q?qbFY2mepABVsMa8jkqymIR0Z0/fa9uMPMRDpt6MS+EMSbTEyKtkrnZlj8QJK?=
+ =?us-ascii?Q?wnpAvXeu4D4ITxO6W30vwAd3DIL2gFfiTt21by3NKmuYhaDfn3N5ByhNG8to?=
+ =?us-ascii?Q?diGaWOyqU4vHvL3MInRT40pXz3WTaURbw0fwwbcrSTsK41PMOaw2Vq9yOiql?=
+ =?us-ascii?Q?DYZk6BcQvXDi1/5Hv6l7hZ9GuqBgfh6XMIGSFI0yxhzrlrN/1CFQ7/H31WOU?=
+ =?us-ascii?Q?/hamrqbK41W3OKuu+Og8ChMb490PTYfmtsHRH9OiS5z4q2UjQjgJuP6re3Mw?=
+ =?us-ascii?Q?G5w4ZdkkTjPFhiVVCM3wgnznaH/tExu0kalnJFjdbpG99RmrMIjqu9sNR4qw?=
+ =?us-ascii?Q?mGp6eEK9tXP9S/53bNivQcKrY5HVtcNkelRxJRZ/nA9wkhbApt8bu/y7SDgu?=
+ =?us-ascii?Q?d1xX+H3FTKLKleIf6dT4JLAn7e+VDS+KCENW7ilSTNeliG0pK/hRPJ+MaTxn?=
+ =?us-ascii?Q?Xup5vrXABTbjC3Vxar+5FoRpLNsA/VbLlahqnB1aewUumkZIqF9T+iDC4x2A?=
+ =?us-ascii?Q?n/YIS0qlXSqdN5ghsuUTCi7pkYS2K+//6JDXM0yFUIV1S1oAA4T9KxUJ/uM9?=
+ =?us-ascii?Q?HFDmXA2SXg7meFSz2u4whMXWhY1yBNz1B+/gR/ElUptFfc2/gAw68QmCc+4N?=
+ =?us-ascii?Q?apzTGdLVM63+q62P7Zyd3MbcdPe51A4cvW40jLwg4ee+osO3DXFtoo4R0G75?=
+ =?us-ascii?Q?SHrLJ8oXPTCUdU7x06Ox97Wf56AqqIB/gNhcYQ7HzhDcq10rLwjUAH1HCHZL?=
+ =?us-ascii?Q?GS8FqCvemH84GF3PjRg9SCzE11VnFGHjSb58TWyF2N0TOUmZWxROz+huQr46?=
+ =?us-ascii?Q?EwSoB6+cVO7hx960f1Fs2D7Ug9xGEWJHvFrIsCFF4otZlR5qeDByu5LNqhv4?=
+ =?us-ascii?Q?7UQrwcUp6LtaHFy45g14eNBFBb25musMI6FCt7nobhDvlppFxlXcvZUc0Gq/?=
+ =?us-ascii?Q?eFRIRWiM4uaiPvLOgsAIIKu42DQwT4QwXUfkOmhmSVpy/jnshYBzKSAJQlyG?=
+ =?us-ascii?Q?g8Ygm4QKytqfMoKJXwWmFR1pUJklibM7ey6/ag5mW7Zow+j6QTJdTyGSXV7H?=
+ =?us-ascii?Q?VMR7twa9ZBA=3D=3D?=
+X-Microsoft-Exchange-Diagnostics: 1;DB6PR0101MB2487;6:KZWfgMvT3moebKuTIHWCxiPjE2jey83ApBfAN0oVVvHF1WC3oM1Q3aj1E+rJ6TrsiBm2kc+cbzIbPj3oIQijCGHKJwVwJz3gPFABgk9Cx4cF38mZsFF1oDJHeSlKb6bvxArXPvwvyk9MJd2446v0163IkYzP+JcaeiR5eF8KS1rISnU8BBrnx3nVh26AH8Oa2+rea4rVULj/9kwXPlk57A==;5:JASK5hl2iuVeORkGUbJLZy4mJnR/EOfJlMNTxYNQqzL+pCOglKmQlglINKQNXxxc0stQnrb14qCBB4xtxNK6DQZ9XOIGT0+WmJIvrlJ1xRu5DHiXkLMFRVUXaeuETmcnLtbK9xrjaGgaZpKlG5Blxg==;24:67GRjk1mJHdJDNtaa3pfJPrLcZIfdZoZmRDT4PNaRROIzbs126Fqn68Egcy83OIwJ1CJHCUGB31AFkO3KyHpWBavhI82KLK2wbVmK9drTfw=;7:WCLR65RzA6gFt2n1FW4uv1JN3NLyESKe/yi/avWhKaD9mrtJh/hUxHAQBZMiwGzGywnv+nioPKl5LZbXyOOLBnCg+rpZSCfoYsXGmDZ23IlVNK7omxUF/y22igaJp73CHEWaj2Ql/mxKBbvIFQQnFk30HjA1j6BpS4MoCNW1v1Cbbw06csLySCnUPq8S1kD6D0QnEbfogDrtE6uzKeb4GdwFBo3C67XvC+oP6F5fMU+62AzEG1ok1EMCCpZuWdci8e29iYEmWhphHkm5oy+i8g==
+SpamDiagnosticOutput: 1:99
+SpamDiagnosticMetadata: NSPM
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 04 Aug 2016 07:47:53.9274
+ (UTC)
+X-MS-Exchange-CrossTenant-Id: 99e0dc58-9c4b-4820-8617-04c386c254c6
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB6PR0101MB2487
+X-MS-Exchange-Organization-AuthSource: MER-EXCH2.napier.ac.uk
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AVStamp-Mailbox: MSFTFF;1;0;0 0 0
